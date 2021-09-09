@@ -1,0 +1,70 @@
+1)    Faça uma função que receba a nota de duas avaliações , calcule a média e mostre ao usuário APENAS UMA das mensagens abaixo informando a sua situação.
+
+>function  nota(a,b){
+  if ((a + b) /2 >= 7){
+    return "aprovado"
+  }
+  else if (( a + b) /2 ==10 ){
+    return "aprovado com distincao"
+  }
+ else if (( a + b ) /2 >=3 &&  ( a + b ) /2 <7 ){
+   return "exame" }
+  else if ((a + b) /2 <3 ){
+    return "reprovado"
+  }
+}
+
+
+
+
+2)      Faça uma função que:
+
+●        Leia 2 (dois) números;
+
+●        Calcule o quadrado de cada um;
+
+●        Se o valor resultante do quadrado do primeiro for >= 1000,
+
+●        imprima o valor resultante do quadrado do primeiro número;
+
+●        Caso contrário, imprima o valor resultante do quadrado do segundo número.
+
+
+> let n1 = 7
+let n2 = 5
+function quadrado(n1, n2) {
+
+let numero1 = n1 ** 2
+let numero2 = n2 ** 2
+
+if (numero2 >= 1000 ){
+  return numero1}
+  else {numero2} 
+}
+
+ 
+
+3)      Faça uma função que recebe o código de um determinado produto e mostre a sua classificação:
+
+>function codigo(mercado){
+  if  (mercado <=1){
+    return " alimento nao-perecivel"
+  }
+   else if (mercado <=2 &&mercado <=3 && mercado <4){
+      return "alimento perecivel"
+    }
+   else if ( mercado <=5 &&  mercado <=6) {
+        return "vestuario"
+      }
+   else if ( mercado <=7){
+          return "higiene pessoal"
+        }
+   else if (mercado <= 8 && mercado <=9 &&  mercado <= 10){
+            return"utensilios domesticos"
+          }
+   else if (mercado >11){
+              return "codigo invalido"
+            }
+}
+
+

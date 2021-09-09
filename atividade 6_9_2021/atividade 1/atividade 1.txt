@@ -1,0 +1,54 @@
+1)    Faça uma função para receber um número e mostrar o resultado conforme a tabela abaixo:
+
+
+>function  tabela(numero){
+  if (numero < 10){
+    return "o numero e unidade"
+  }
+  else if ( numero >= 10 && numero < 100){
+    return "o numerro e dezena"
+  }
+  else if (numero >= 100 && numero <1000){
+    return "o numero e centena"
+  }
+}
+
+
+
+2)      Tendo como dados de entrada a altura e o sexo de uma pessoa, faça uma função que calcule seu peso ideal, utilizando as seguintes fórmulas:
+
+Para homens: (72.7*h) - 58
+
+Para mulheres: (62.1*h) - 44.7   
+
+(h = altura)
+
+
+> 
+function  pessoa(h,sexo){
+let  pesoHomem= (72.7*h) - 58
+let pesoMulheres = (62.1*h) - 44.7
+
+
+  if ( sexo =="M" ){
+    return pesoHomem
+  }
+  
+  else if ( sexo == "F" ){
+    return pesoMulheres
+  }
+  
+}
+
+
+3)      Faça uma função que recebe a idade do usuário e verifique se ele tem 18 anos ou mais. Se a resposta for positiva escrever “maior de idade”, senão “menor de idade”.
+
+>function  maior(idade){
+  if (idade >= 18){
+    return "maior idade"
+  }
+  else if (idade <= 18){
+    return "menor idade"
+  }
+} 
+
